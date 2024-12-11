@@ -1,0 +1,38 @@
+.benefits h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 60px;
+}
+.cnt h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.cnt p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #52525B;
+}
+.opts {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    width: 90%;
+    padding: 30px 0px 30px 0px;
+    flex-wrap: nowrap;
+}
+.benefits {
+    padding-bottom: 30px;
+}

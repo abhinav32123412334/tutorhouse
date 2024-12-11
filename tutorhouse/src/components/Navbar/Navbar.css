@@ -1,0 +1,20 @@
+.navbar-nav a.nav-link {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--darkblue);
+}
+.navbar-nav .nav-item a.nav-link.active {
+    color: var(--purple);
+    font-weight: 600;
+}
+a.navbar-brand {
+    width: 12%;
+}
+nav.navbar {
+    padding: 20px;
+}

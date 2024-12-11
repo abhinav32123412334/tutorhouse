@@ -1,0 +1,17 @@
+.browse-tutor {
+    margin: 60px auto 30px;
+}
+.browse-tutor img {
+    width: 100%;
+    margin: 40px auto;
+}
+.browse-tutor h2 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 70%;
+}

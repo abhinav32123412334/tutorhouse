@@ -1,0 +1,51 @@
+.team {
+    padding: 100px 0;
+}
+.team .row {
+justify-content: space-between; 
+align-items: center;
+}
+.team h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--heading-color);
+}
+.team ul {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.tutor-inf {
+    box-shadow: 0px 11.69px 15.59px -3.9px #10182814;
+    box-shadow: 0px 3.9px 5.85px -1.95px #10182808;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tutor-inf img {
+    width: 100%;
+    box-shadow: 0px 11.69px 15.59px -3.9px #10182814;
+    box-shadow: 0px 3.9px 5.85px -1.95px #1018283b;
+    padding: 10px;
+    border-radius: 20px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.tutor-inf {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,44 @@
+.faq h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.faq {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.faq .row {
+    justify-content: space-between;
+}
+button.accordion-button {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+button.accordion-button:hover, button.accordion-button:focus{
+    box-shadow: none;
+    background:transparent;
+}
+.accordion-body {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: var(--transparent);
+}

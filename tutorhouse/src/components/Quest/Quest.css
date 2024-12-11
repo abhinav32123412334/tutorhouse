@@ -1,0 +1,70 @@
+.qst {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background: var(--lgt-purple);
+}
+.qst h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--heading-color);
+}
+.qst p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--pcolor);
+  width: 60%;
+  margin: 26px auto 0;
+}
+.qst .row {
+  padding: 65px 0;
+  flex-wrap: wrap;
+}
+.internal {
+  box-shadow: 0px 11.69px 15.59px -3.9px #10182814;
+  box-shadow: 0px 3.9px 5.85px -1.95px #10182808;
+  background: #fff;
+  padding: 40px 27px;
+  border-radius: 15px;
+}
+.internal h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 20px auto;
+}
+.internal p {
+  font-size: 15.59px;
+  font-weight: 400;
+  line-height: 23.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #697586;
+  width: 100%;
+  margin: 16px auto 0;
+}
+.have-quest p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #697586;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
